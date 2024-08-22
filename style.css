@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(49, 151, 117);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(49,151,117);
+}
+
+.chamada {
+    background: rgb(35, 32, 32);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    color: rgb(49, 151, 117);
+}
+
+h1 {
+    font-size: 40px;
+  }
+
+p {
+    font-size: 20px;
+  }
+
+img{
+    height: 200px;
+}
+
+.videosrec{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.videosrec img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.videosrec img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.videosroleta h2 {
+    color: rgb(49, 151, 117);
+}
+
+.videosroleta {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
